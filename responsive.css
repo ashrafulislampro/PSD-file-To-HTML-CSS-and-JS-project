@@ -1,0 +1,107 @@
+/*=======================================================
+Tablet layout
+========================================================= */
+
+@media only screen and (min-width:200px) and (max-width:991px){
+
+          .social-area,social-area ul {
+                     max-width: 492px; padding-top: 12px
+                    }
+
+          .inner-menu {
+                    background: none;
+                    padding: 0;
+                    min-height: auto;
+                    }
+          .mean-container .mean-nav {
+                               width: 80%;
+                               margin-top: 0;
+                    }
+          #slider_area {
+                    margin-top: 0px;
+                    
+          } 
+          .inner-header {
+                    overflow: hidden;
+                    padding: 10px 0;
+          }
+          .align_right {
+                   width: 300px;
+                   height: auto; 
+          }
+          .text_area {
+                    padding: 0;
+                     margin-top: 0;
+          }
+          #banner_area h1 {
+                    font-size: 57px;
+          }
+          .child_area h2 {
+                    font-size: 24px;
+          }
+          .child_area {
+                    width: 48%;
+                   
+          }
+
+
+}
+
+/*=======================================================
+mobile layout
+========================================================= */
+
+@media only screen and (min-width:200px) and (max-width:480px){
+
+          .search-menu {
+                     width: 54%;
+          }
+          .mini-menu {
+                    width: 103%;
+                    margin-bottom: 10px;
+          }
+          .search-menu form {
+                    float: right;
+                    max-width: 185px;
+                    width: 96%;
+                    margin-right: 100px;
+          }
+          .logo-area {
+                    margin-left: 70px;
+          }
+          .social-area ul {
+                    text-align: center;
+          }
+          .align_right {
+                    width: 361px;
+                    height: auto;
+          }
+          #banner_area h1 {
+                    font-size: 53px;
+          }
+          .child_area {
+                    width: 98%;
+          }
+          .child_footer {
+                    padding: 1%;
+                    width: 96%;
+          }
+          .copyright_left{
+                    width: 98%;
+                    margin-bottom: -10px;
+                    
+          }
+          .copyright_right{
+                    width: 98%;
+          }
+
+
+
+
+
+
+
+
+}
+
+
